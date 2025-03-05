@@ -42,5 +42,14 @@ public class Aula04Operadores {
 
         //operadores lógicos && (AND/E) || (or/OU) ! (logical NOT/negação)
 
+        int idade = 35;
+        float salario = 3.500f;
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4300;
+        boolean isDentroDaLeiMenorQueTrinta = idade > 30 && salario >= 4300;
+        boolean isDentroDaLeiMenorQueTrintaESalarioCorrespondente = idade > 30 && salario <= 3502f;
+        System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta "+isDentroDaLeiMenorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrintaESalarioCorrespondente "+isDentroDaLeiMenorQueTrintaESalarioCorrespondente);
+
     }
 }
