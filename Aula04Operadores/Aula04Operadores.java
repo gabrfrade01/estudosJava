@@ -40,5 +40,7 @@ public class Aula04Operadores {
         System.out.println("isDezIgualDez "+isDezIgualDez);
         System.out.println("isDezDiferenteDez "+isDezDiferenteDez);
 
+        //operadores lógicos && (AND/E) || (or/OU) ! (logical NOT/negação)
+
     }
 }
