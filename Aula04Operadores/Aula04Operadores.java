@@ -42,11 +42,16 @@ public class Aula04Operadores {
 
         //operadores lógicos && (AND/E) || (or/OU) ! (logical NOT/negação)
 
+        //As operações lógicas são realizadas usando operadores booleanos. Perdoe a tautologia, mas é exatamente assim que as coisas
+        // são. Operações lógicas básicas (em programação e matemática) podem ser aplicadas a argumentos lógicos (operandos) e
+        // também podem ser usadas para formar expressões mais complexas, semelhantes às operações aritméticas com números.
+        // Por exemplo a expressão:
+
         int idade = 35;
         float salario = 3.500f;
         boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4300;
         boolean isDentroDaLeiMenorQueTrinta = idade > 30 && salario >= 4300;
-        boolean isDentroDaLeiMenorQueTrintaESalarioCorrespondente = idade > 30 && salario <= 3502f;
+        boolean isDentroDaLeiMenorQueTrintaESalarioCorrespondente = idade > 30 && salario <= 3500f;
         System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta "+isDentroDaLeiMenorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrintaESalarioCorrespondente "+isDentroDaLeiMenorQueTrintaESalarioCorrespondente);
