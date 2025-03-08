@@ -47,6 +47,9 @@ public class Aula04Operadores {
         // também podem ser usadas para formar expressões mais complexas, semelhantes às operações aritméticas com números.
         // Por exemplo a expressão:
 
+        //Operador OU (||): O operador ||, também chamado de OU ou OR avaliará o valor de duas expressões e se qualquer
+        // uma duas forem verdadeiras ele retornará true, senão, será false
+
         int idade = 35;
         float salario = 3.500f;
         boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4300;
