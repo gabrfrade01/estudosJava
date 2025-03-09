@@ -90,5 +90,9 @@ public class Aula04Operadores {
         double bonus04 = 500f;
         bonus04 *= 5;
         System.out.println(bonus04); //para multiplicar!
+
+        double bonus06 = 25f;
+        bonus06 %= 2;
+        System.out.println(bonus06); //para mostrar o resto!
     }
 }
