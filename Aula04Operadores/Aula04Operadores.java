@@ -47,9 +47,6 @@ public class Aula04Operadores {
         // também podem ser usadas para formar expressões mais complexas, semelhantes às operações aritméticas com números.
         // Por exemplo a expressão:
 
-        //Operador OU (||): O operador ||, também chamado de OU ou OR avaliará o valor de duas expressões e se qualquer
-        // uma duas forem verdadeiras ele retornará true, senão, será false
-
         int idade = 35;
         float salario = 3.500f;
         boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4300;
@@ -58,6 +55,10 @@ public class Aula04Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
         System.out.println("isDentroDaLeiMenorQueTrintaESalarioCorrespondente " + isDentroDaLeiMenorQueTrintaESalarioCorrespondente);
+
+        //Operador OU (||): O operador ||, também chamado de OU ou OR avaliará o valor de duas expressões e se qualquer
+        // uma duas forem verdadeiras ele retornará true, senão, será false.
+
 
         // && (AND) || (OR) ! (LOGICAL NOT)
         double valorTotalContaCorrente = 200;
@@ -69,7 +70,7 @@ public class Aula04Operadores {
 
         //ATRIBUIÇÃO
         // = += -= *= /= %= (PARA POUPAR UM POUCO DE CÓDIGO, NO COMEÇO É BOM ESCREVER A EXPRESSÃO INTEIRA PARA ACOSTUMAR
-        // MAS DEPOIS É BOM PARA POUPAR TEMPO
+        // MAS DEPOIS É BOM PARA POUPAR TEMPO.
 
         double bonus01 = 150f;
         double bonus05 = 150f + 200;
@@ -94,5 +95,42 @@ public class Aula04Operadores {
         double bonus06 = 25f;
         bonus06 %= 2;
         System.out.println(bonus06); //para mostrar o resto!
+
+        //OPERADORES UNÁRIOS
+        //Operadores unários são operações que atuam em um único operando, ou seja, em uma única variável. São usados em matemática
+        // e em linguagens de programação.
+
+        //Exemplos de operadores unários Unário menos (-x), Unário mais (+x), Prefixo decremento (--x), Pós-fixo incremento (x++).
+
+       int contador = 0;
+       contador += 1;
+        System.out.println(contador); //contador  = contador + 1
+
+        int contador02 = 02;
+        contador02 ++;
+        System.out.println(contador02); //para somar mais rápido
+
+        int contador03 = 07;
+        contador03 --;
+        System.out.println(contador03);
+
+        //pode-se usar também da forma contrária, dessa forma:
+
+        int contador04 = 10;
+        --contador04;
+        System.out.println(contador04); //para diminuir
+
+        int contador05 = 25;
+        ++contador05;;
+        System.out.println(contador05);
+
+        //usa-se dessa forma quando depende da forma que quer ser usado, quando coloca primeiro ele passa a conta primeiro
+        //exemplo, se colocar dessa forma
+
+        int contador06 = 0;
+        System.out.println(contador06++); //aqui ele irá fazer primeiro a impressão, pois o ++ vem depois e como não tem nada atribuido a ele
+        // só sera somado na próxima declaração! Por exemplo;
+        System.out.println(contador06); // aqui ele já soma 1, pois ele pegou o ++ que seria a última atribuição e somou no contador06
+        // respondendo 1
     }
 }
