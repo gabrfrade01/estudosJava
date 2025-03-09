@@ -8,11 +8,11 @@ public class Aula04Operadores {
         int numero01 = 10;
         int numero02 = 20;
         int resultado = numero01 + numero02;
-        System.out.println(resultado+" esse é o resultado");
+        System.out.println(resultado + " esse é o resultado");
         // o resultado de operação de números inteiros, sempre resultará em número inteiro
         // exemplo;
-        System.out.println(numero01/numero02); //resultado é zero pois são dois números inteiros
-        System.out.println(numero01/(double)numero02); // resultado é 0,5 pois o (double) na frente transformou o numero02
+        System.out.println(numero01 / numero02); //resultado é zero pois são dois números inteiros
+        System.out.println(numero01 / (double) numero02); // resultado é 0,5 pois o (double) na frente transformou o numero02
 
         // % é o resto da divisão (bom para identificar se é um número par ou impar)
 
@@ -34,11 +34,11 @@ public class Aula04Operadores {
         boolean isDezIgualVinte = 10 == 20;
         boolean isDezIgualDez = 10 == 10;
         boolean isDezDiferenteDez = 10 != 10;
-        System.out.println("isDezMaiorQueVinte "+isDezMaiorQueVinte);
-        System.out.println("isDezMaiorQueVinte "+isDezMenorQueVinte);
-        System.out.println("isDezIgualVinte "+isDezIgualVinte);
-        System.out.println("isDezIgualDez "+isDezIgualDez);
-        System.out.println("isDezDiferenteDez "+isDezDiferenteDez);
+        System.out.println("isDezMaiorQueVinte " + isDezMaiorQueVinte);
+        System.out.println("isDezMaiorQueVinte " + isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte " + isDezIgualVinte);
+        System.out.println("isDezIgualDez " + isDezIgualDez);
+        System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
 
         //operadores lógicos && (AND/E) || (or/OU) ! (logical NOT/negação)
 
@@ -55,9 +55,18 @@ public class Aula04Operadores {
         boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4300;
         boolean isDentroDaLeiMenorQueTrinta = idade > 30 && salario >= 4300;
         boolean isDentroDaLeiMenorQueTrintaESalarioCorrespondente = idade > 30 && salario <= 3500f;
-        System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
-        System.out.println("isDentroDaLeiMenorQueTrinta "+isDentroDaLeiMenorQueTrinta);
-        System.out.println("isDentroDaLeiMenorQueTrintaESalarioCorrespondente "+isDentroDaLeiMenorQueTrintaESalarioCorrespondente);
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrintaESalarioCorrespondente " + isDentroDaLeiMenorQueTrintaESalarioCorrespondente);
+
+        // && (AND) || (OR) ! (LOGICAL NOT)
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000F;
+
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlaystationCincoCompravel "+isPlaystationCincoCompravel);
+
 
     }
 }
