@@ -67,6 +67,28 @@ public class Aula04Operadores {
         boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
         System.out.println("isPlaystationCincoCompravel "+isPlaystationCincoCompravel);
 
+        //ATRIBUIÇÃO
+        // = += -= *= /= %= (PARA POUPAR UM POUCO DE CÓDIGO, NO COMEÇO É BOM ESCREVER A EXPRESSÃO INTEIRA PARA ACOSTUMAR
+        // MAS DEPOIS É BOM PARA POUPAR TEMPO
 
+        double bonus01 = 150f;
+        double bonus05 = 150f + 200;
+        System.out.println(bonus05); //O que seria escrito assim, fica conforme os exemplos abaixo !!
+
+        double bonus = 1000f;
+        bonus = 1800f;
+        System.out.println(bonus); //para somar!
+
+        double bonus02 = 1800f;
+        bonus02 -= 1000f;
+        System.out.println(bonus02); //para diminuir!
+
+        double bonus03 = 1000f;
+        bonus03 /= 2;
+        System.out.println(bonus03); //para dividir!
+
+        double bonus04 = 500f;
+        bonus04 *= 5;
+        System.out.println(bonus04); //para multiplicar!
     }
 }
