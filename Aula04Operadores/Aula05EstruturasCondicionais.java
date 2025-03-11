@@ -32,9 +32,32 @@ public class Aula05EstruturasCondicionais {
 
             int idade05 = 14;
             boolean isAutorizado = idade05 >= 18;
-            if(!isAutorizado){ //se lê "Se não autorizado..."
-                System.out.println("Não autorizado, você tem "+ idade05);
+            if (!isAutorizado) { //se lê "Se não autorizado..."
+                System.out.println("Não autorizado, você tem " + idade05);
             }
+
+            //ELSE = SE NÃO
+
+            int idade06 = 15;
+            boolean isAutorizado01 = idade06 >= 18;
+
+            if (isAutorizado01) {
+                System.out.println("Você pode comprar bebida");
+            } else {
+                System.out.println("Você não pode comprar bebida");
+            }
+
+            int idade07 = 25;
+            boolean isAutorizado02 = idade >= 18;
+
+            if (isAutorizado02) {
+                System.out.println("Você pode comprar meu jovem");
+            } else {
+                System.out.println("Você não pode comprar meu jovem..."); // O ELSE SEMPRE SERÁ EXECUTADO CASO O IF NÃO SEJA EXECUTADO
+                // VOCÊ NÃO PODE TER UM ELSE SEM UM IF!
+            }
+
+
         }
 
     }
