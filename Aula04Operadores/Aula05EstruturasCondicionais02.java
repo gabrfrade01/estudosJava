@@ -13,9 +13,20 @@ public class Aula05EstruturasCondicionais02 {
         } else if (idade >= 15 && idade < 18) {
             System.out.println("Categoria juvenil");
 
-        }
-        else{
+        } else {
             System.out.println("Categoria adulto");
         }
+        // OUU DESSA FORMA:
+
+        int idade02 = 10;
+        String categoria;
+        if (idade02 < 15) {
+            categoria = "Infantil";
+        } else if (idade02 >= 15) {
+            categoria = "Juvenil";
+        } else {
+            categoria = "Adulto";
+        }
+        System.out.println(categoria); //nunca esquecer o sout KKKK
     }
 }
