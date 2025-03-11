@@ -18,9 +18,13 @@ public class Aula05EstruturasCondicionais03 {
 
 
         double salario02 = 17000;
-        String resultado02 = salario02 > 500 ? "Eu vou dar um presente pra Bela" : "Eu não posso dar o presente ainda";
+        String resultado02 = salario02 > 7000 ? "Eu vou dar um presente pra Bela" : "Eu não posso dar o presente ainda";
         System.out.println(resultado02); //mais simplificado ainda!
 
+        //Posso fazer dessa forma também:
+
+        boolean isPossoComprar = salario02 > 27000 ? true : false;
+        System.out.println(isPossoComprar);
 
     }
 
