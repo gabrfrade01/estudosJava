@@ -8,25 +8,25 @@ public class Aula06EstruturasCondicionais {
         byte dia = 5;
         switch (dia) {
             case 1:
-                System.out.println("Domingo");
+                System.out.println("Dom");
                 break;
             case 2:
-                System.out.println("Segunda");
+                System.out.println("Seg");
                 break;
             case 3:
-                System.out.println("Terça");
+                System.out.println("Ter");
                 break;
             case 4:
-                System.out.println("Quarta");
+                System.out.println("Qua");
                 break;
             case 5:
-                System.out.println("Quinta");
+                System.out.println("Qui");
                 break;
             case 6:
-                System.out.println("Sexta");
+                System.out.println("Sex");
                 break;
             case 7:
-                System.out.println("Sábado");
+                System.out.println("Sáb");
                 break;
             default:
                 System.out.println("Opção Inválida"); //lugar onde coloca default não importa, mas lembrar do break
