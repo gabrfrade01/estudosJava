@@ -26,6 +26,9 @@ public class Aula05EstruturasCondicionais03 {
         boolean isPossoComprar = salario02 > 27000 ? true : false;
         System.out.println(isPossoComprar);
 
+        boolean isPossoComprar02 = salario02 > 2000 ? true: false;
+        System.out.println(isPossoComprar02);
+
     }
 
 }
