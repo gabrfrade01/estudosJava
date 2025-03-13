@@ -28,6 +28,10 @@ public class Aula06EstruturasCondicionais {
             case 7:
                 System.out.println("Sábado");
                 break;
+            default:
+                System.out.println("Opção Inválida"); //lugar onde coloca default não importa, mas lembrar do break
+                break; // e sempre que for criar um case igual no exemplo, sempre lembrar do Default!!! E do break logo
+            // depois de cada CASE!
 
         }
     }
