@@ -28,7 +28,16 @@ public class Aula05EstruturasCondicionais03 {
 
         boolean isPossoComprar02 = salario02 > 2000 ? true: false;
         System.out.println(isPossoComprar02);
+// && = TODA CONDIÇÃO DEVE SER VERDADEIRA
+        // F  && V = FALSO
+       // V && V = VERDADEIRO
+        // V && F = FALSO
 
+        // || = SE TIVER UMA CONDIÇÃO VERDADEIRA, VAI SER TUDO VERDADEIRO
+        // F || V = VERDADEIRO
+        // V || F = VERDADEIRO
+        // F || F || F || V = VERDADEIRO
+        // F || || F || = FALSO
     }
 
 }
