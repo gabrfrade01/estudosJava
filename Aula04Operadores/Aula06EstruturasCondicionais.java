@@ -34,5 +34,16 @@ public class Aula06EstruturasCondicionais {
             // depois de cada CASE!
 
         }
+        byte dias01 = 8;
+        switch (dias01) {
+            case 8:
+                System.out.println("DIA DE PAGAMENTO");
+                break;
+            case 9:
+                System.out.println("DIA NORMAL");
+                break;
+            default:
+                System.out.println("Opção Inválida Do dia de Pagamento");
+        }
     }
 }
